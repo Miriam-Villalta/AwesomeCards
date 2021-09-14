@@ -10,22 +10,14 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-image: url(https://images.unsplash.com/photo-1594349835151-8b9d5eec19b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODV8fHZlZ2V0YWJsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
-  background-size: cover;
-  height: calc(100vh - 120px);
-
-  @media all and (min-width: 768px) {
-    height: calc(100vh - 61px);
-  }
-
-  @media all and (min-width: 1220px) {
-    height: calc(100vh - 61px);
-  }
+  background-color: antiquewhite;
+  height: 100%;
+  padding: 45px;
 
   &__img {
     width: 250px;
-    margin-bottom: 35px;
-    margin-top: 95px;
+    /*margin-bottom: 35px;
+    margin-top: 95px;*/
 
     @media all and (min-width: 768px) {
       margin-bottom: 31px;
@@ -51,9 +43,9 @@
     font-family: $font-primary;
     width: 250px;
     font-size: 12.8px;
-    color: rgba(255, 255, 255, 0.808);
+    color: rgba(87, 65, 65, 0.808);
     line-height: 25px;
-    margin-bottom: 17.5px;
+    margin-block: 12px;
     font-weight: normal;
     line-height: normal;
     padding-bottom: 10px;
@@ -67,13 +59,15 @@
 
   &__container {
     width: 268px;
-    border: 2px solid rgba(255, 255, 255, 0.37);
+    border: 2px solid rgba(87, 65, 65, 0.808);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
-    padding: 15px 10px 15px 15px;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 0px;
 
     @media all and (min-width: 768px) {
       width: 325px;
@@ -90,7 +84,7 @@
   }
 
   &__text {
-    color: rgba(255, 255, 255, 0.808);
+    color: rgba(87, 65, 65, 0.808);
     font-size: 12.8px;
 
     @media all and (min-width: 768px) {
@@ -105,15 +99,17 @@
     font-size: 14px;
     font-weight: 600;
     text-align: center;
-    line-height: normal;
     width: 127px;
-    height: 39px;
+    height: 42px;
     border-radius: 21px;
     line-height: 42px;
     border-radius: 21px solid $color-primary;
     background-color: $color-primary;
-    margin-top: 38.6px;
-    margin-bottom: 80px;
+    margin-top: 40px;
     font-family: $font-primary;
   }
+}
+
+.m-icon {
+  width: 74.5px;
 }

@@ -15,10 +15,9 @@
   padding: 18px 20px;
 
   @media all and (min-width: 768px) {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 61px;
+    height: 60px;
   }
 
   &__copy {
